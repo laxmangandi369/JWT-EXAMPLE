@@ -38,8 +38,6 @@ public class Role {
 
     System.out.println("Role entity");
 System.out.println("Role entity");
-System.out.println("Role entity");
-System.out.println("Role entity");
 
     public Role(Long id, String name, String desciption) {
         this.id = id;
