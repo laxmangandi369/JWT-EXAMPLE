@@ -21,6 +21,8 @@ public class AuthenticationController {
 
     @PostMapping("/register")
     public ResponseEntity<?> register(@RequestBody RegisterRequest registerRequest){
+        System.out.println("testing giturl on dev");
+        System.out.println("testing giturl on dev");
         return ResponseEntity.ok(authenticationService.register(registerRequest));
     }
 
